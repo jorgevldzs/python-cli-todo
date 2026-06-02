@@ -1,22 +1,68 @@
 # CLI Todo App
-<!--Remove the below lines and add yours -->
-Simple Todo app with command line interface. Supports adding, deleting, and viewing task entries.
 
-### Prerequisites
-<!--Remove the below lines and add yours -->
-Modules required to be able to use the script successfully
-and how to install them.
-(Including a `requirements.txt` file will work.)
+A simple command-line Todo application built with Python. It allows users to add, view, and complete tasks directly from the terminal. Tasks are stored locally in a TXT file so they persist between sessions.
 
-### How to run the script
-<!--Remove the below lines and add yours -->
-Steps on how to run the script along with suitable examples.
+## Prerequisites
 
-### Screenshot/GIF showing the sample use of the script
-<!--Remove the below lines and add yours -->
-Add a jpeg/png/gif file here.
+Before running the project, make sure you have:
 
-## *Author Name*
-<!--Remove the below lines and add yours -->
-Jorge Valdez
-https://github.com/jorgevldzs
+- Python 3.10 or newer installed
+
+To check your Python version:
+
+```bash
+python --version
+```
+
+
+## How to run the script
+
+### Add a task
+
+```bash
+python todo.py add
+```
+
+### View all tasks
+
+```bash
+python todo.py tasks
+```
+
+### Mark a task as completed
+
+```bash
+python todo.py done 
+```
+
+
+## Screenshot showing the sample use of the script
+
+### Menu
+
+![CLI Todo App - Menu](resources/menu.png)
+
+### Add task
+
+![CLI Todo App - Add task](resources/add_task.png)
+
+### View Tasks
+
+![CLI Todo App - View task](resources/view_tasks.png)
+
+### Mark task as completed
+
+![CLI Todo App - Done task](resources/done_task.png)
+
+## Features
+
+- Add tasks
+- View tasks
+- Mark tasks as completed
+- Store tasks in a local TXT file
+
+## Author
+
+**Jorge Valdez**
+
+GitHub: [jorgevldzs](https://github.com/jorgevldzs)

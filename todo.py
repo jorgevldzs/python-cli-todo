@@ -59,6 +59,7 @@ def add():
 
         if num_tasks == 0:
             file.write("1±±±" + task + "\n")
+            print(f"You have added the task: {task}")
         else:
             for line in lines[1:]:
                 file.write(line + "\n")
